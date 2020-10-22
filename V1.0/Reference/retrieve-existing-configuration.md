@@ -2,11 +2,11 @@
 uid: RetrieveExistingConfiguration1-0
 ---
 
-# Retrieve existing configuration
+# (RU) Retrieve existing configuration
 
 Use the EdgeCmd utility to view the configuration for the components of Edge Data Store.
 
-## View all components configuration
+## (RU) View all components configuration
 
 Complete the following steps to view the configuration of every component in Edge Data Store:
 
@@ -18,7 +18,7 @@ Complete the following steps to view the configuration of every component in Edg
    ```
   
   
-## View a specific component configuration
+## (RU) View a specific component configuration
 
 Complete the following steps to view the configuration of a specific component:
 
@@ -31,7 +31,7 @@ Complete the following steps to view the configuration of a specific component:
    
    For more information, see the example, [View the configuration of the System component](#view-the-configuration-of-the-system-component).
 
-## View a specific facet configuration
+## (RU) View a specific facet configuration
 
 Complete the following steps to view the configuration of a specific facet of a component:
 
@@ -43,7 +43,7 @@ Complete the following steps to view the configuration of a specific facet of a 
    ```
    For more information, see the example, [View the configuration of the Logging facet within the Storage component](#view-the-configuration-of-the-logging-facet-within-the-storage-component).
    
-## View a specific facet entry configuration
+## (RU) View a specific facet entry configuration
 
 Complete the following steps to view the configuration of a specific facet entry of a component:
 
@@ -58,9 +58,9 @@ Complete the following steps to view the configuration of a specific facet entry
 
    For more information, see the example, [View the configuration of a specific entry in the PeriodicEgressEndpoint facet within the Storage component](#view-the-configuration-of-a-specific-entry-in-the-periodicegressendpoint-facet-within-the-storage-component).
 
-### Examples
+### (RU) Examples
 
-#### View the configuration of the System component
+#### (RU) View the configuration of the System component
 
 ```bash
 edgecmd Configuration System
@@ -83,7 +83,7 @@ edgecmd Configuration System
 }
 ```
 
-#### View the configuration of the Logging facet within the Storage component
+#### (RU) View the configuration of the Logging facet within the Storage component
 
 ```bash
 edgecmd Configuration Storage Logging
@@ -94,7 +94,7 @@ edgecmd Configuration Storage Logging
 }
 ```
 
-#### View the configuration of a specific entry in the PeriodicEgressEndpoint facet within the Storage component
+#### (RU) View the configuration of a specific entry in the PeriodicEgressEndpoint facet within the Storage component
 
 ```bash
 edgecmd Configuration Storage PeriodicEgressEndpoints id=Endpoint_1

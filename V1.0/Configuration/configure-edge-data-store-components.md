@@ -2,11 +2,11 @@
 uid: ConfigureEdgeDataStoreComponent1-0
 ---
 
-# Configure Edge Data Store component
+# (RU) Configure Edge Data Store component
 
 Use the EdgeCmd utility to add, configure, and delete Edge Data Store components.
 
-## View configured components
+## (RU) View configured components
 
 Complete the following steps to view the components currently configured on Edge Data Store.
 
@@ -17,7 +17,7 @@ Complete the following steps to view the components currently configured on Edge
 	edgecmd Configuration System Components
 	```
 
-## Add a component
+## (RU) Add a component
 
 Complete the following steps to add a Modbus TCP EDS adapter component or an OPC UA EDS adapter component.
 
@@ -36,7 +36,7 @@ Complete the following steps to add a Modbus TCP EDS adapter component or an OPC
 	edgecmd Configuration System Components componentId=Modbus1 componentType=Modbus
 	```
 
-## Configure facets of a component
+## (RU) Configure facets of a component
 
 The Modbus TCP EDS adapter and OPC UA EDS adapter each have three configurable facets: data source, data selection, and logging. Complete the following steps to configure a facet for a component.
 
@@ -57,7 +57,7 @@ The Modbus TCP EDS adapter and OPC UA EDS adapter each have three configurable f
 
 For detailed information on how to configure each adapter, see [OPC UA EDS adapter](https://osisoft.github.io/Edge-Data-Store-Docs/V1/OpcUa/OpcUaOverview_1-0.html) and [Modbus TCP EDS adapter](https://osisoft.github.io/Edge-Data-Store-Docs/V1/Modbus/ModbusOverview_1-0.html) in the Edge Data Store documentation.
 
-## Delete a component
+## (RU) Delete a component
 
 Complete the following steps to delete a component from Edge Data Store.
 

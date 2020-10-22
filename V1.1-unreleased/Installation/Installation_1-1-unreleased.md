@@ -2,11 +2,11 @@
 uid: Installation1-1-unreleased
 ---
 
-# Installation
+# (RU) Installation
 
 The following sections provide instructions to install the EdgeCmd utility on Windows or Linux and to access the utility once it is installed.
 
-## Install EdgeCmd utility on Windows
+## (RU) Install EdgeCmd utility on Windows
 
 **Note:** You must have administrative privileges to run the installer.
 
@@ -25,7 +25,7 @@ Complete the following steps to install the EdgeCmd utility on Windows:
 
 The EdgeCmd utility is installed on your device.
 
-## Install EdgeCmd utility on Linux
+## (RU) Install EdgeCmd utility on Linux
 
 **Note:** You must have administrative privileges to install the software, for example, root or sudo privilege.
 

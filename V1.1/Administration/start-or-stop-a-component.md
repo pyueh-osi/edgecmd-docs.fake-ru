@@ -2,7 +2,7 @@
 uid: StartOrStopAComponent1-1
 ---
 
-# Start or stop a component
+# (RU) Start or stop a component
 
 Complete the following steps to either start or stop an adapter component.
 

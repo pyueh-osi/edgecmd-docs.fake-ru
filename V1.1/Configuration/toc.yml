@@ -1,8 +1,8 @@
-- name: Configure an adapter inside commands
+- name: (RU) Configure an adapter inside commands
   href: configure-an-adapter-inside-commands.md
-- name: Configure an adapter with JSON files
+- name: (RU) Configure an adapter with JSON files
   href: configure-an-adapter-with-json-files.md
-- name: Configure adapter component
+- name: (RU) Configure adapter component
   href: configure-adapter-component.md
-- name: Configure adapter data selection with CSV files
+- name: (RU) Configure adapter data selection with CSV files
   href: configure-adapter-data-selection-with-csv-files.md

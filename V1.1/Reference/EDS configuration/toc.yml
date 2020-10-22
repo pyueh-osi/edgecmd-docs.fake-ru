@@ -1,2 +1,2 @@
-- name: Retrieve EDS configuration
+- name: (RU) Retrieve EDS configuration
   href: retrieve-eds-configuration.md

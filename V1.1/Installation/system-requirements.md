@@ -2,7 +2,7 @@
 uid: SystemRequirements1-1
 ---
 
-# System requirements
+# (RU) System requirements
 
 EdgeCmd is supported on a variety of platforms and processors. Install kits are available for the following platforms:
 

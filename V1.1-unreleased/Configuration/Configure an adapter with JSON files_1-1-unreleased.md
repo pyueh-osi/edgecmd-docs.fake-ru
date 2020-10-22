@@ -2,7 +2,7 @@
 uid: ConfigureAnAdapterWithJsonFiles1-1-unreleased
 ---
 
-# Configure an adapter with JSON Files
+# (RU) Configure an adapter with JSON Files
 
 Use EdgeCmd utility to  import a JSON file that contains the adapter configuration into the adapter. A file import completely replaces the existing configurations; therefore, you cannot use it to change individual values in a facet without modifying others.
 
@@ -12,7 +12,7 @@ Use EdgeCmd utility to  import a JSON file that contains the adapter configurati
 edgecmd -port=5591 Configuration <RestOfTheCommand>
 ```
 
-## Import bulk configuration
+## (RU) Import bulk configuration
 
 Complete the following steps to import a bulk configuration:
 
@@ -23,7 +23,7 @@ Complete the following steps to import a bulk configuration:
    edgecmd Configuration file=<PathToJsonFile>
    ```
 
-## Import facet specific configuration
+## (RU) Import facet specific configuration
 
 Complete the following steps to import a facet specific configuration file for a component:
 
@@ -34,7 +34,7 @@ Complete the following steps to import a facet specific configuration file for a
    edgecmd Configuration <componentId> <facetName> file=<PathToJsonFile>
    ```
 
-## Import facets configuration in bulk
+## (RU) Import facets configuration in bulk
 
 Complete the following steps to import a file with configuration for individual facets, but not individual values of a facet, as a bulk file import operation:<br><br>
 **Note:** The file must contain only information for the given component ID.

@@ -2,7 +2,7 @@
 uid: EdgecmdUtility1-0
 ---
 
-# EdgeCmd utility
+# (RU) EdgeCmd utility
 
 Use OSIsoft's proprietary tool, EdgeCmd utility, to configure and administer Edge Data Store on Linux and Windows using command line arguments. Because EdgeCmd is a command line tool, adjustments to the configuration can be made on the fly without programming. If you prefer, all tasks available in EdgeCmd can be performed using REST APIs. 
 

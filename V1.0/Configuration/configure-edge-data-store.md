@@ -2,11 +2,11 @@
 uid: ConfigureEdgeDataStore1-0
 ---
 
-# Configure Edge Data Store
+# (RU) Configure Edge Data Store
 
 Use the EdgeCmd utility to configure Edge Data Store.
 
-## Change all values of a facet
+## (RU) Change all values of a facet
 
 Complete the following to change all values of a facet:
 
@@ -19,7 +19,7 @@ Complete the following to change all values of a facet:
    edgecmd Configuration Storage Logging LogLevel=Warning LogFileSizeLimitBytes=32768 LogFileCountLimit=5
    ```
 
-## Configure key=value pairs in a facet
+## (RU) Configure key=value pairs in a facet
 
 Complete the following to configure any number of valid key=value pairs in a facet:
 
@@ -32,7 +32,7 @@ Complete the following to configure any number of valid key=value pairs in a fac
    edgecmd Configuration Storage Logging LogFileCountLimit=5
    ```
 
-## Add an entry to a collection configuration
+## (RU) Add an entry to a collection configuration
 
 Complete the following to add an entry to a collection configuration:
 
@@ -46,11 +46,11 @@ Complete the following to add an entry to a collection configuration:
    ```
 	**Note:** If an entry with the specified ID already exists, it will be updated based on the new key=value pairs.
 
-## Configure with JSON Files
+## (RU) Configure with JSON Files
 
 Configure Edge Data Store by a JSON file input into the EdgeCmd application. A file import completely replaces the existing configurations; therefore, you cannot use it to change individual values in a facet without modifying others.
 
-### Import bulk configuration
+### (RU) Import bulk configuration
 
 Complete the following to import a bulk configuration:
 	
@@ -61,7 +61,7 @@ Complete the following to import a bulk configuration:
    edgecmd Configuration file=<PathToJsonFile>
    ```
 
-### Import facet specific configuration
+### (RU) Import facet specific configuration
 
 Complete the following to import a facet specific configuration file for a component:
 	
@@ -72,7 +72,7 @@ Complete the following to import a facet specific configuration file for a compo
    edgecmd Configuration <componentId> <facetName> file=<PathToJsonFile>
    ```
 
-### Import facets configuration in bulk
+### (RU) Import facets configuration in bulk
 
 Complete the following steps to import a file with configuration for individual facets as a bulk file import operation:
 	**Note:** The file must contain only information for the given component ID. 

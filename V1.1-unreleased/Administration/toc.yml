@@ -1,4 +1,4 @@
-- name: Delete configuration
+- name: (RU) Delete configuration
   href: Delete configuration_1-1.md
-- name: Start or stop a component
+- name: (RU) Start or stop a component
   href: Start or stop a component_1-1.md

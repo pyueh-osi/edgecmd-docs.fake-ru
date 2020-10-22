@@ -2,7 +2,7 @@
 uid: ConfigureAnAdapterInsideCommands1-1
 ---
 
-# Configure an adapter inside commands
+# (RU) Configure an adapter inside commands
 
 Use EdgeCmd utility to configure an adapter using only commands or by pointing to JSON files. For more information, see [Configure an adapter with JSON files](xref:ConfigureAnAdapterWithJsonFiles1-1).
 
@@ -19,7 +19,7 @@ edgecmd -port 5591 <RestOfTheCommand>
   - In *Linux*, add three slashes.<br>
        Example: `TestUser\OilCompany` becomes `TestUser\\\\OilCompany`
 
-## Change all values of a facet
+## (RU) Change all values of a facet
 
 Complete the following steps to change all values of a facet:
 
@@ -38,7 +38,7 @@ Complete the following steps to change all values of a facet:
    edgecmd set Logging -cid OpcUa1 -LogLevel Warning -LogFileSizeLimitBytes 5000 -LogFileCountLimit 30
    ```
 
-## Configure key=value pairs in a facet
+## (RU) Configure key=value pairs in a facet
 
 Complete the following steps to configure any number of valid key=value pairs in a facet:
 
@@ -57,7 +57,7 @@ Complete the following steps to configure any number of valid key=value pairs in
    edgecmd edit Logging -cid Modbus1 -LogFileCountLimit 15
    ```
 
-## Add an entry to a collection configuration
+## (RU) Add an entry to a collection configuration
 
 Complete the following steps to add an entry to a collection configuration:
 

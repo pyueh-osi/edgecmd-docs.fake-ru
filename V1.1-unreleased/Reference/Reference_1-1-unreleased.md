@@ -2,7 +2,7 @@
 uid: Reference1-1-unreleased
 ---
 
-# Reference
+# (RU) Reference
 
 Use the EdgeCmd utility to access help on how to use EdgeCmd utility itself and to retrieve configuration information for PI adapters and their components.
 

@@ -2,7 +2,7 @@
 uid: DeleteConfiguration1-1-unreleased
 ---
 
-# Delete configuration
+# (RU) Delete configuration
 
 Use the EdgeCmd utility to delete adapter configuration entries or files that are no longer needed.
 
@@ -19,7 +19,7 @@ edgecmd -port=5591 Configuration <RestOfTheCommand>
   - In *Linux*, add three slashes.<br>
        Example: `TestUser\OilCompany` becomes `TestUser\\\\OilCompany`
 
-## Delete configuration entry
+## (RU) Delete configuration entry
 
 Complete the following steps to delete a configuration entry from a collection configuration. For example, you can delete a single health endpoint of the 'HealthEndpoints' facet within the 'System' component.
 
@@ -33,7 +33,7 @@ Complete the following steps to delete a configuration entry from a collection c
    edgecmd Configuration System HealthEndpoints Id=endpoint_1 delete
    ```
 
-## Delete configuration file
+## (RU) Delete configuration file
 
 Complete the following steps to delete a configuration file. For example, you can delete the configuration file of the 'HealthEndpoints' facet within the 'System' component.
 

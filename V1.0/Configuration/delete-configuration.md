@@ -2,10 +2,10 @@
 uid: DeleteConfiguration1-0
 ---
 
-# Delete configuration
+# (RU) Delete configuration
 Use the EdgeCMD utility to delete configuration entries for Edge Data Store.
 
-## Delete configuration entry
+## (RU) Delete configuration entry
 
 Complete the following to delete a configuration entry from a collection configuration in Edge Data Store. For example, you can delete a single health endpoint of the 'HealthEndpoints' facet within the 'System' component.
 
@@ -22,7 +22,7 @@ Complete the following to delete a configuration entry from a collection configu
    edgecmd Configuration System HealthEndpoints Id=endpoint_1 delete
    ```
 
-## Delete configuration file
+## (RU) Delete configuration file
 
 Complete the following to delete a configuration file from Edge Data Store. For example, you can delete the configuration file of the 'HealthEndpoints' facet within the 'System' component.
 

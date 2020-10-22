@@ -2,11 +2,11 @@
 uid: InstallEdgeCmdUtility1-1
 ---
 
-# Install EdgeCmd utility
+# (RU) Install EdgeCmd utility
 
 You can install EdgeCmd utility on either a Windows or Linux operating system. For more information, see [System requirements](xref:SystemRequirements1-1).
 
-## Windows
+## (RU) Windows
 
 **Prerequisite:** Contact your IT department to ensure that you have administrative privileges necessary on the local machine to run the install kit.
 
@@ -28,7 +28,7 @@ Complete the following steps to install the EdgeCmd utility on Windows:
 
 The EdgeCmd utility is installed on your device.
 
-## Linux
+## (RU) Linux
 
 **Note:** You must have administrative privileges to install the software, for example, root or sudo privilege.
 

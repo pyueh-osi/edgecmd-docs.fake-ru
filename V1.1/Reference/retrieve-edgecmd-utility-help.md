@@ -2,7 +2,7 @@
 uid: RetrieveEdgeCmdUtilityHelp1-1
 ---
 
-# Retrieve EdgeCmd utility help
+# (RU) Retrieve EdgeCmd utility help
 
 The EdgeCmd utility provides you with help output for any operation and from any component running within an Adapter.
 
@@ -12,7 +12,7 @@ The EdgeCmd utility provides you with help output for any operation and from any
 edgecmd -help -port 5591 <RestOfCommand>
 ```
 
-## View application help instructions
+## (RU) View application help instructions
 
 Complete the following steps to view help instructions for the entire application:
 
@@ -23,7 +23,7 @@ Complete the following steps to view help instructions for the entire applicatio
     edgecmd help
     ```
 
-## View component help instructions
+## (RU) View component help instructions
 
 Complete the following steps to view help instructions for configuration of a registered component that the adapter supports:
 
@@ -38,7 +38,7 @@ Complete the following steps to view help instructions for configuration of a re
 
   **Note:** The help output also provides examples of commands that you can run to configure the component.
 
-## View component facet help instructions
+## (RU) View component facet help instructions
 
 Complete the following steps to view configuration help instructions for a specific facet within a component that the adapter supports:
 
@@ -51,7 +51,7 @@ Complete the following steps to view configuration help instructions for a speci
 
  Under [Examples](#examples), see **Configuration help for the buffering facet within the System component**.
 
-### Examples
+### (RU) Examples
 
 <details>
     <summary>Configuration help for the System component</summary>

@@ -2,7 +2,7 @@
 uid: RetrieveDiagnosticsFunctions1-1
 ---
 
-# Retrieve diagnostics functions
+# (RU) Retrieve diagnostics functions
 
 Use EdgeCmd utility to retrieve diagnostics functions of the platform and components.
 
@@ -12,7 +12,7 @@ Use EdgeCmd utility to retrieve diagnostics functions of the platform and compon
 edgecmd -port 5591 <RestOfTheCommand>
 ```
 
-## Retrieve diagnostics
+## (RU) Retrieve diagnostics
 
 1. Access EdgeCmd utility through the command line.
 2. Run the following command:
@@ -45,7 +45,7 @@ edgecmd -port 5591 <RestOfTheCommand>
     </pre>
     </details>
 
-## Retrieve version
+## (RU) Retrieve version
 
 1. Access EdgeCmd utility through the command line.
 2. Run the following command:
