@@ -1,12 +1,12 @@
----
+﻿---
 uid: TechnicalSupportAndFeedback
 ---
 
-# (RU) Technical support and feedback
+# (ЯИ) Technical support and feedback
 
 OSIsoft provides several ways to report issues and provide feedback on EdgeCmd utility.
 
-## (RU) Technical support
+## (ЯИ) Technical support
 
 For technical assistance with EdgeCmd utility, contact OSIsoft Technical Support through the [OSIsoft Customer Portal](https://my.osisoft.com/). We can help you identify the problem, provide workarounds and address any concerns you may have. Remote access to your facilities may be necessary during the session.
 
@@ -22,7 +22,7 @@ When you contact OSIsoft Technical Support, be prepared to provide this informat
 - Details of any environment changes prior to the start of the issue
 - Summary of the issue, including any relevant log files during the time the issue occurred
 
-## (RU) Documentation feedback
+## (ЯИ) Documentation feedback
 
 To submit documentation feedback for EdgeCmd utility, send an email to [documentation@osisoft.com](mailto:documentation@osisoft.com?subject=EdgeCmd%20utility%20documentation&body=Product%20name%20and%20version%20-%20Documentation%20topic%20URL%20-%20Details%20of%20the%20suggestion%20or%20error). Be sure to include the following information with your feedback:
 

@@ -1,8 +1,8 @@
----
+﻿---
 uid: Configuration1-1
 ---
 
-# (RU) Configuration
+# (ЯИ) Configuration
 
 Use EdgeCmd utility to configure an adapter or adapter components directly from the command line or by pointing to a JSON file that contains the configuration. For more information about the specific configurations, see the respective adapter documentation.
 

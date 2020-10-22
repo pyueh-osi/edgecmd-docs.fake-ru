@@ -1,8 +1,8 @@
----
+﻿---
 uid: StartOrStopAComponent1-1-unreleased
 ---
 
-# (RU) Start or stop a component
+# (ЯИ) Start or stop a component
 
 Complete the following steps to either start or stop a component.
 

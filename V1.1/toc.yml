@@ -1,19 +1,19 @@
-- name: (RU) EdgeCmd utility
+﻿- name: (ЯИ) EdgeCmd utility
   href: edgecmd-utility.md
   homepage: edgecmd-utility.md
-- name: (RU) Installation
+- name: (ЯИ) Installation
   href: Installation/toc.yml
   topicHref: Installation/installation.md
-- name: (RU) Configuration
+- name: (ЯИ) Configuration
   href: Configuration/toc.yml
   topicHref: Configuration/configuration.md
-- name: (RU) Administration
+- name: (ЯИ) Administration
   href: Administration/toc.yml
   topicHref: Administration/administration.md
-- name: (RU) Reference
+- name: (ЯИ) Reference
   href: Reference/toc.yml
   topicHref: Reference/reference.md
-- name: (RU) Release notes
+- name: (ЯИ) Release notes
   href: Release-notes/release-notes.md
-- name: (RU) Technical support and feedback
+- name: (ЯИ) Technical support and feedback
   href: ../technical-support-and-feedback.md

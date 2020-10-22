@@ -1,9 +1,9 @@
-- name: (RU) EdgeCmd utility versions
+﻿- name: (ЯИ) EdgeCmd utility versions
   dropdown: true
   items:
-  - name: (RU) EdgeCmd utility 1.0
+  - name: (ЯИ) EdgeCmd utility 1.0
     href: V1.0/
     topicHref: V1.0/edgecmd-utility.md
-  - name: (RU) EdgeCmd utility 1.1
+  - name: (ЯИ) EdgeCmd utility 1.1
     href: V1.1/
     topicHref: V1.1/edgecmd-utility.md

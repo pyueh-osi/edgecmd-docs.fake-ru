@@ -1,6 +1,6 @@
-- name: (RU) Configure an adapter within commands
+﻿- name: (ЯИ) Configure an adapter within commands
   href: Configure an adapter within commands_1-1.md
-- name: (RU) Configure an adapter with JSON files
+- name: (ЯИ) Configure an adapter with JSON files
   href: Configure an adapter with JSON files_1-1.md
-- name: (RU) Configure adapter component
+- name: (ЯИ) Configure adapter component
   href: Configure adapter component_1-1.md

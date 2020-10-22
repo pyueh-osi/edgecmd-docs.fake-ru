@@ -1,8 +1,8 @@
----
+﻿---
 uid: ResetApplication1-1
 ---
 
-# (RU) Reset application
+# (ЯИ) Reset application
 
 Use the EdgeCmd utility to reset the entire application and the storage in EDS.
 

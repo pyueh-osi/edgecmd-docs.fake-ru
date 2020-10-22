@@ -1,8 +1,8 @@
----
+﻿---
 uid: DeleteConfiguration1-1
 ---
 
-# (RU) Delete configuration
+# (ЯИ) Delete configuration
 
 Use the EdgeCmd utility to delete adapter or EDS configurations or configuration entries that you no longer need.
 
@@ -12,7 +12,7 @@ Use the EdgeCmd utility to delete adapter or EDS configurations or configuration
 edgecmd -port 5591 <RestOfTheCommand>
 ```
 
-## (RU) Delete configuration entry
+## (ЯИ) Delete configuration entry
 
 Complete the following steps to delete a configuration entry from a collection configuration. For example, you can delete a single health endpoint of the 'HealthEndpoints' facet within the 'System' component.
 
@@ -37,7 +37,7 @@ Complete the following steps to delete a configuration entry from a collection c
    edgecmd remove HealthEndpoints -id OcsEndpoint
    ```
 
-## (RU) Delete entire configuration
+## (ЯИ) Delete entire configuration
 
 Complete the following steps to delete the entire configuration of a system facet. For example, you can delete the configuration of the 'HealthEndpoints' facet within the 'System' component.
 

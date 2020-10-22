@@ -1,8 +1,8 @@
----
+﻿---
 uid: Administration1-1
 ---
 
-# (RU) Administration
+# (ЯИ) Administration
 
 Use EdgeCmd utility to perform administrative level functions for OSIsoft adapters, such as starting and stopping an adapter ingress component, removing an adapter component, or resetting the entire application.
 

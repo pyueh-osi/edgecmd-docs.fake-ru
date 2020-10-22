@@ -1,6 +1,6 @@
-- name: (RU) Delete configuration
+﻿- name: (ЯИ) Delete configuration
   href: delete-configuration.md
-- name: (RU) Start or stop a component
+- name: (ЯИ) Start or stop a component
   href: start-or-stop-a-component.md
-- name: (RU) Reset application
+- name: (ЯИ) Reset application
   href: reset-application.md

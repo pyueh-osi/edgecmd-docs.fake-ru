@@ -1,8 +1,8 @@
----
+﻿---
 uid: EdgeCmdCommands1-1
 ---
 
-# (RU) EdgeCmd commands
+# (ЯИ) EdgeCmd commands
 
 The following tables provide a description of every command available in EdgeCmd utility. Every command used with the EdgeCmd utility has to be preceded by `edgecmd`. Parts of the command that are in `[ ]` are optional and do not need to be specified.
 
@@ -19,7 +19,7 @@ edgecmd -port 5591 Configuration <RestOfTheCommand>
   - In *Linux*, add three slashes.<br>
        Example: `TestUser\OilCompany` becomes `TestUser\\\\OilCompany`
 
-## (RU) Help output
+## (ЯИ) Help output
 
 The following commands display help output for different levels of the application.
 
@@ -30,13 +30,13 @@ EdgeCmd command| Description | Examples |
 `edgecmd  help <target> -cid <componentId>` | Display configuration help output for any registered component and facet.  | `edgecmd help DataSource -cid opcua1` 
 `edgecmd help -cid <componentId>` | Display configuration help output for any registered component. | `edgecmd help -cid OpcUa1`
 
-## (RU) Port configuration
+## (ЯИ) Port configuration
 
 EdgeCmd command| Description | Example |
 ---------------|-------------|----------|
 `edgecmd -port 5590 <command> [-cid <componentId>]` | Specify the port number for communication with EDS or the adapter. | `edgecmd -port 5595 get Components`
 
-## (RU) Application configuration
+## (ЯИ) Application configuration
 
 The following commands configure the application.
 
@@ -47,11 +47,11 @@ EdgeCmd command| Description | Example |
 `edgecmd reset Application`  | Reset the entire application and storage in EDS. |
 `edgecmd help Application` | Display help output for the application target.
 
-## (RU) System component configuration
+## (ЯИ) System component configuration
 
 The following commands configure specific facets of the system component.
 
-### (RU) Components facet configuration
+### (ЯИ) Components facet configuration
 
 EdgeCmd command| Description | Example |
 ---------------|-------------|----------|
@@ -61,7 +61,7 @@ EdgeCmd command| Description | Example |
 `edgecmd remove Components [-id <componentId] [-y]` | Remove specified component from configuration. | `edgecmd remove Components -id Modbus1`
 `edgecmd help Components`| Display help output for components configuration. |
 
-### (RU) Buffering facet configuration
+### (ЯИ) Buffering facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -70,7 +70,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd edit Buffering [-bufferLocation <value>] [-maxBufferSizeMB <value>] [-enableBuffering <value>]`  | Change buffering configuration. | `edgecmd Buffering -bufferLocation C:/ProgramData/OSIsoft/Adapters/Modbus/Buffers -maxBufferSizeMB 1024 -enableBuffering true`
 `edgecmd help Buffering` | Display help output for buffering configuration.
 
-### (RU) Health endpoints facet configuration
+### (ЯИ) Health endpoints facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -81,7 +81,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd remove HealthEndpoints [-id <string>] [-y]`| Remove health endpoint. | `edgecmd remove HealthEndpoints -id OCS`
 `edgecmd help HealthEndpoints` | Display help output for health endpoints configuration.
 
-## (RU) OMF egress data endpoints facet configuration
+## (ЯИ) OMF egress data endpoints facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -93,7 +93,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd remove DataEndpoints [-y]`| Remove all data endpoints. | `edgecmd remove DataEndpoints -y`
 `edgecmd help DataEndpoints`| Display help output for data endpoints configuration.
 
-## (RU) Component
+## (ЯИ) Component
 
 The following commands configure a component.
 
@@ -108,7 +108,7 @@ EdgeCmd command| Description | Examples |
 
 The following commands configure specific facets of a component.
 
-### (RU) Logging facet configuration
+### (ЯИ) Logging facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -117,7 +117,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd edit Logging [-cid <componentId>] [-LogLevel <logLevel>] [-LogFileSizeLimitBytes <MaxSize>] [-LogFileCountLimit <FileCount>]`  | Change logging configuration for specified component | `edgecmd edit Logging -cid Modbus1 -LogLevel Information -LogFileSizeLimitBytes 4567 -LogFileCountLimit 123`
 `edgecmd help Logging` | Display help output for logging facet |
 
-### (RU) Schedules facet configuration
+### (ЯИ) Schedules facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -129,7 +129,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd remove Schedule -cid <componentId> [-y]` | Remove schedules configuration for specified component. | `edgecmd remove Schedule -cid OpcUa1`
 `edgecmd help Schedule –cid <componentId>`| Display help output for schedules facet. | `edgecmd help Schedule -cid Modbus1`
 
-### (RU) Data filters facet configuration
+### (ЯИ) Data filters facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -140,7 +140,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd remove DataFilters -cid <componentId> [-id <itemid>] [-y]`| Remove data filters configuration for item in specified component. | `edgecmd remove DataFilters -cid OpcUa1 -y`
 `edgecmd help DataFilters –cid <componentId>` | Display help output for data filters facet. | `edgecmd help DataFilters -cid Modbus1`
 
-### (RU) Data source facet configuration
+### (ЯИ) Data source facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -151,7 +151,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd remove Datasource -cid <componentId> [-y]`| Remove data source configuration for specified component. | `edgecmd remove Datasource -cid OpcUa1 -y`
 `edgecmd help Datasource -cid <componentId>` | Display help output for data source facet. | `edgecmd help Datasource -cid Modbus1`
 
-### (RU) Data selection facet configuration
+### (ЯИ) Data selection facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -165,7 +165,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd remove DataSelection -cid <componentId> [-y]` | Remove data selection configuration for specified component. | `edgecmd remove DataSelection -cid Modbus1 -y`
 `edgecmd help DataSelection -cid <componentId>`| Display help output for data selection facet. | `edgecmd help DataSelection -cid OpcUa1`
 
-### (RU) General facet configuration
+### (ЯИ) General facet configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -176,9 +176,9 @@ EdgeCmd command| Description | Examples |
 `edgecmd remove <FacetName> -cid <componentId> [-y]`| Remove configuration for specified facet in specified component. | `edgecmd remove Logging -cid Modbus1 -y`
 `edgecmd help <FacetName> -cid <componentId>` | Display help out output for specified facet in specified component. | `edgecmd help DataFilters -cid OpcUa1`
 
-## (RU) EDS configuration
+## (ЯИ) EDS configuration
 
-### (RU) Storage configuration
+### (ЯИ) Storage configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -187,7 +187,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd reset Storage [-y]` | Reset Storage configuration. | `edgecmd reset Storage -y`
 `edgecmd help Storage`| Display help output for Storage configuration. |
 
-### (RU) Runtime configuration
+### (ЯИ) Runtime configuration
 
 EdgeCmd command| Description | Examples |
 ---------------|-------------|----------|
@@ -196,7 +196,7 @@ EdgeCmd command| Description | Examples |
 `edgecmd edit Runtime [-parameter <value>]`  | Change runtime configuration. | `edgecmd edit Runtime`
 `edgecmd help Runtime` | Display help output for runtime configuration.
 
-## (RU) Diagnostics configuration
+## (ЯИ) Diagnostics configuration
 
 EdgeCmd command| Description |
 ---------------|-------------|

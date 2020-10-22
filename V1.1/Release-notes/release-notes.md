@@ -1,24 +1,24 @@
----
+﻿---
 uid: ReleaseNotes1-1
 ---
 
-# (RU) Release notes
+# (ЯИ) Release notes
 
 EdgeCmd utility 1.1
 
-## (RU) Overview
+## (ЯИ) Overview
 
 Edge Data Store (EDS) and PI Adapters have a REST API that allows user interaction. Configuration is one of the most common interactions. This command line tool, EdgeCmd utility, uses this REST API to apply all changes and administration functions to EDS and PI adapters. Specifically, the EdgeCmd utility's command line interface uses configuration and administration functions of the REST API, so the user does not need to know the REST routes. EdgeCmd utility thus improves the user experience, facilitates easier scripting experiences and provides built-in help.
 
 For more information, see [EdgeCmd utility](xref:index1-1).
 
-## (RU) Fixes and enhancements
+## (ЯИ) Fixes and enhancements
 
-### (RU) Fixes
+### (ЯИ) Fixes
 
 The command line syntax and processing of EdgeCmd utility v1.1 has been entirely reworked from scratch, so there are no specific fixes.
 
-### (RU) Enhancements
+### (ЯИ) Enhancements
 
 Changes from version 1.0
 
@@ -47,29 +47,29 @@ Changes from version 1.0
 
 * No change to actual routes for setting or reading configuration although the PI Adapter's REST API port can no longer be modified through EdgeCmd utility.
 
-## (RU) Known issues
+## (ЯИ) Known issues
 
 There are no known issues at this time.
 
-## (RU) System requirements
+## (ЯИ) System requirements
 
 Refer to [System requirements](xref:SystemRequirements1-1).
 
-## (RU) Installation and upgrade
+## (ЯИ) Installation and upgrade
 
 Refer to [Install EdgeCmd utility](xref:InstallEdgeCmdUtility1-1).
 
-## (RU) Uninstallation
+## (ЯИ) Uninstallation
 
 Refer to [Uninstall EdgeCmd utility](xref:UninstallEdgeCmdUtility1-1).
 
-## (RU) Security information and guidance
+## (ЯИ) Security information and guidance
 
-### (RU) OSIsoft’s commitment
+### (ЯИ) OSIsoft’s commitment
 
 Because the PI System often serves as a barrier protecting control system networks and mission-critical infrastructure assets, OSIsoft is committed to (1) delivering a high-quality product and (2) communicating clearly what security issues have been addressed. This release of *EdgeCmd utility* is the highest quality and most secure version of the *EdgeCmd utility* released to date. OSIsoft's commitment to improving the PI System is ongoing, and each future version should raise the quality and security bar even further.
 
-### (RU) Vulnerability communication
+### (ЯИ) Vulnerability communication
 
 The practice of publicly disclosing internally discovered vulnerabilities is consistent with the Common Industrial Control System Vulnerability Disclosure Framework developed by the Industrial Control Systems Joint Working Group (ICSJWG). Despite the increased risk posed by greater transparency, OSIsoft is sharing this information to help you make an informed decision about when to upgrade to ensure your PI System has the best available protection.
 
@@ -77,16 +77,16 @@ For more information, refer to [OSIsoft’s Ethical Disclosure Policy (https://w
 
 To report a security vulnerability, refer to [OSIsoft's Report a Security Vulnerability (https://www.osisoft.com/report-a-security-vulnerability)](https://www.osisoft.com/report-a-security-vulnerability).
 
-### (RU) Vulnerability scoring
+### (ЯИ) Vulnerability scoring
 
 OSIsoft has selected the Common Vulnerability Scoring System (CVSS) to quantify the severity of security vulnerabilities for disclosure. To calculate the CVSS scores, OSIsoft uses the National Vulnerability Database (NVD) calculator maintained by the National Institute of Standards and Technology (NIST).  OSIsoft uses High, Medium and Low categories to aggregate the CVSS Base scores. This removes some of the opinion related errors of CVSS scoring.  As noted in the CVSS specification, Base score range from 0 for the lowest severity to 10 for the highest severity.
 
-### (RU) Overview of new vulnerabilities found or fixed
+### (ЯИ) Overview of new vulnerabilities found or fixed
 
 This section is intended to provide relevant security-related information to guide your installation or upgrade decision. OSIsoft is proactively disclosing aggregate information about the number and severity of EdgeCmd utility security vulnerabilities that are fixed in this release.
 
 No security-related information is applicable to this release.
 
-## (RU) Technical support and resources
+## (ЯИ) Technical support and resources
 
 Refer to [Technical support and feedback](xref:TechnicalSupportAndFeedback).

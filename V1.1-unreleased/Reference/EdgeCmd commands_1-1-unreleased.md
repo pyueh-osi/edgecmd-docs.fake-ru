@@ -1,8 +1,8 @@
----
+﻿---
 uid: EdgeCmdCommands1-1-unreleased
 ---
 
-# (RU) EdgeCmd commands
+# (ЯИ) EdgeCmd commands
 
 The following tables provide a description of every command available in EdgeCmd utility. Every command used with the EdgeCmd utility has to be preceded by `edgecmd`.
 
@@ -19,7 +19,7 @@ edgecmd -port=5591 Configuration <RestOfTheCommand>
   - In *Linux*, add three slashes.<br>
        Example: `TestUser\OilCompany` becomes `TestUser\\\\OilCompany`
 
-## (RU) Help
+## (ЯИ) Help
 
 | edgecmd command | Description | Examples |
 |-----------------|-------------|----------|
@@ -27,9 +27,9 @@ edgecmd -port=5591 Configuration <RestOfTheCommand>
 |```edgecmd -help Configuration <componentId>```| Display help for a specific adapter component.| ```edgecmd -help Configuration System```|
 |```edgecmd -help Configuration <componentId> <facetName>``` | Display help for a specific facet of an adapter component. | ```edgecmd -help Configuration System Logging```|
 
-## (RU) Configuration
+## (ЯИ) Configuration
 
-### (RU) System
+### (ЯИ) System
 
 | edgecmd command | Description | Examples |
 |-----------------|-------------|----------|
@@ -38,7 +38,7 @@ edgecmd -port=5591 Configuration <RestOfTheCommand>
 |```edgecmd Configuration System Components componentId=<componentId> componentType=<componentType>``` | Add a new component.  | ```edgecmd Configuration System Components componentId=Modbus1 componentType=Modbus```|
 |```edgecmd Configuration System Components id=<componentId> delete``` | Delete a component. | ```edgecmd Configuration System Components id=Modbus1 delete``` |
 
-### (RU) Components
+### (ЯИ) Components
 
 | edgecmd command | Description | Examples |
 |-----------------|-------------|----------|
@@ -49,14 +49,14 @@ edgecmd -port=5591 Configuration <RestOfTheCommand>
 |```edgecmd Configuration <componentId> DataSelection``` | Configure the data selection for the adapter. | For examples, see [PI Adapter for OPC UA data selection configuration](https://osisoft.github.io/OSIsoft-Adapter-OPC-UA-Docs/V1/Configuration/OSIsoft%20Adapter%20for%20OPC%20UA%20data%20selection%20configuration.html) and [PI Adapter for Modbus TCP data selection configuration](https://osisoft.github.io/OSIsoft-Adapter-Modbus-Docs/V1/Configuration/OSIsoft%20Adapter%20for%20Modbus%20TCP%20data%20selection%20configuration.html)|
 |```edgecmd Configuration <componentId> Logging``` | Configure logging for a component. | ```edgecmd Configuration OpcUa1 Logging``` |
 
-## (RU) Configuration with JSON files
+## (ЯИ) Configuration with JSON files
 
 | edgecmd command | Description | Examples |
 |-----------------|-------------|----------|
 | ```edgecmd Configuration file=<PathToJsonFile>``` | Import a bulk configuration through a JSON file. | ```edgecmd Configuration file="~/Bulk_Storage_Runtime.json"```|
 | ```edgecmd Configuration <componentId> <facetName> file=<PathToJsonFile>``` | Import a facet specific configuration file for a component. | ```edgecmd Configuration Modbus1 DataSource file="~/System_Logging.json"```|
 
-## (RU) Administration
+## (ЯИ) Administration
 
 | edgecmd command | Description | Examples |
 |-----------------|-------------|----------|

@@ -1,8 +1,8 @@
----
+﻿---
 uid: ConfigurePort1-0
 ---
 
-# (RU) Configure port
+# (ЯИ) Configure port
 
 Complete the following procedure to change the port on which the system is listening for REST API calls using the EdgeCmd utility.
 

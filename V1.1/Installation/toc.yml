@@ -1,8 +1,8 @@
-- name: (RU) System requirements
+﻿- name: (ЯИ) System requirements
   href: system-requirements.md
-- name: (RU) Install EdgeCmd utility
+- name: (ЯИ) Install EdgeCmd utility
   href: install-edgecmd-utility.md
-- name: (RU) Access EdgeCmd utility
+- name: (ЯИ) Access EdgeCmd utility
   href: access-edgecmd-utility.md
-- name: (RU) Uninstall EdgeCmd utility
+- name: (ЯИ) Uninstall EdgeCmd utility
   href: uninstall-edgecmd-utility.md

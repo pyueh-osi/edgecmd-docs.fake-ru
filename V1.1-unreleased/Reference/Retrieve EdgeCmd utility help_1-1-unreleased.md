@@ -1,8 +1,8 @@
----
+﻿---
 uid: RetrieveEdgeCmdUtilityHelp1-1-unreleased
 ---
 
-# (RU) Retrieve EdgeCmd utility help
+# (ЯИ) Retrieve EdgeCmd utility help
 
 The EdgeCmd utility provides instructions on how to use EdgeCmd utility.
 
@@ -19,7 +19,7 @@ edgecmd -help -port=5591 Configuration <RestOfTheCommand>
   - In *Linux*, add three slashes.<br>
        Example: `TestUser\OilCompany` becomes `TestUser\\\\OilCompany`
 
-## (RU) View general help instructions
+## (ЯИ) View general help instructions
 
 Complete the following steps to view help instructions on how to use the Edgecmd utility:
 
@@ -30,7 +30,7 @@ Complete the following steps to view help instructions on how to use the Edgecmd
     edgecmd -help
     ```
 
-## (RU) View component help instructions
+## (ЯИ) View component help instructions
 
 Complete the following steps to view help instructions for configuration of a registered component that the adapter supports:
 
@@ -45,7 +45,7 @@ Complete the following steps to view help instructions for configuration of a re
 
   **Note:** The help output also provides examples of commands that you can run to configure the component.
 
-## (RU) View component facet help instructions
+## (ЯИ) View component facet help instructions
 
 Complete the following steps to view configuration help instructions for a specific facet within a component that the adapter supports:
 
@@ -58,7 +58,7 @@ Complete the following steps to view configuration help instructions for a speci
 
  Under [Examples](#examples), see **Configuration help for the buffering facet within the System component**.
 
-### (RU) Examples
+### (ЯИ) Examples
 
 <details>
     <summary>Configuration help for the System component</summary>
